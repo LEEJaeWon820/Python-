@@ -1,8 +1,8 @@
-#Python Tutorial 
+# Python Tutorial 
 ---
-##Python HOME 
+## Python HOME 
 ---
-##Python Intro 
+## Python Intro 
 ---
 ##Python Get Started 
 ---
