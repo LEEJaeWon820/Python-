@@ -1,41 +1,12 @@
-# Python Tutorial 
----
-## Python HOME 
----
-'print("Hello, World!")'
-## Python Intro 
----
-## Python Get Started 
----
+# Python-Tutorial
+## Python Home
+```python
+print("Hello, World!")
+```
 ## Python Syntax 
----
-## Python Comments 
----
-## Python Variables 
----
-## Python Data Types 
----
-## Python Numbers 
----
-##P ython Casting 
----
-## Python Strings 
----
-## Python Booleans 
----
-## Python Operators 
----
-## Python Lists 
----
-## Python Tuples 
----
-## Python Sets 
----
-## Python Dictionaries 
----
-## Python If...Else 
----
-## Python While Loops 
----
-## Python For Loops 
----
+들여쓰기는 코드 줄의 시작 부분에 있는 공백을 나타낸다
+들여쓰기를 건너 뛰면 Python에서 오류가 발생한다.
+```python
+if 5 > 2:
+print("Five is greater than two!")
+```
