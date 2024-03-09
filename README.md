@@ -2,6 +2,7 @@
 ---
 ## Python HOME 
 ---
+print("Hello, World!")
 ## Python Intro 
 ---
 ## Python Get Started 
@@ -32,9 +33,9 @@
 ---
 ## Python Dictionaries 
 ---
-##Python If...Else 
+## Python If...Else 
 ---
-##Python While Loops 
+## Python While Loops 
 ---
-##Python For Loops 
+## Python For Loops 
 ---
