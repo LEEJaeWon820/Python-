@@ -30,7 +30,7 @@
 ---
 ##Python Sets 
 ---
-##Python Dictionaries 
+##Python Dictionaries
 ---
 ##Python If...Else 
 ---
