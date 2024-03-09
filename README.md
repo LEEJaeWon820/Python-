@@ -4,33 +4,33 @@
 ---
 ## Python Intro 
 ---
-##Python Get Started 
+## Python Get Started 
 ---
-##Python Syntax 
+## Python Syntax 
 ---
-##Python Comments 
+## Python Comments 
 ---
-##Python Variables 
+## Python Variables 
 ---
-##Python Data Types 
+## Python Data Types 
 ---
-##Python Numbers 
+## Python Numbers 
 ---
-##Python Casting 
+##P ython Casting 
 ---
-##Python Strings 
+## Python Strings 
 ---
-##Python Booleans 
+## Python Booleans 
 ---
-##Python Operators 
+## Python Operators 
 ---
-##Python Lists 
+## Python Lists 
 ---
-##Python Tuples 
+## Python Tuples 
 ---
-##Python Sets 
+## Python Sets 
 ---
-##Python Dictionaries
+## Python Dictionaries 
 ---
 ##Python If...Else 
 ---
