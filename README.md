@@ -376,3 +376,328 @@ x = str("s1") # x will be 's1'
 y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
 ```
+
+# Python Strings
+
+## 문자열
+- 파이썬의 문자열은 작은따옴표 또는 큰따옴표로 묶여있다.
+- ‘hello’ = “hello”
+```python
+print("Hello")
+print('Hello')
+```
+
+## 변수에 문자열 할당
+```python
+a = "Hello"
+print(a)
+```
+
+## 여러 줄 문자열
+```python
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+```
+```python
+a = '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+print(a)
+```
+
+## 문자열은 배열로 인식
+- 파이썬에는 문자 데이터 유형이 없으며 단일 문자는 단순히 길이가 1인 문자열이다
+- 첫 번째 문자 위치는 0이다.
+```python
+a = "Hello, World!"
+print(a[1])
+```
+
+## 문자열 루핑
+```python
+for x in "banana":
+  print(x)
+```
+
+## 그렇지 않은지 확인
+특정 구문이나 문자가 문자열에 없는지 확인하려면 다음을 사용할 수 있습니다. 
+```python
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+```
+
+## 슬라이싱
+slice 구문을 사용하여 문자 범위를 반환할 수 있습니다.
+
+시작 인덱스와 끝 인덱스를 콜론으로 구분하여 지정하여 문자열의 일부입니다.
+
+```python
+b = "Hello, World!"
+print(b[2:5])
+```
+
+## 네거티브 인덱싱
+음수 인덱스를 사용하여 문자열의 끝에서 조각을 시작합니다.
+```python
+b = "Hello, World!"
+print(b[-5:-2])
+```
+---
+
+# Python Booleans
+
+## 부울 
+프로그래밍에서는 표현식이 인지 또는 인지 알아야 하는 경우가 많습니다.`TrueFalse`
+
+Python에서 모든 표현식을 평가하고 다음 두 가지 중 하나를 얻을 수 있습니다. 
+답변 또는 .`TrueFalse`
+
+두 값을 비교하면 표현식이 평가되고 Python은 부울 대답
+```python
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+```
+if 문에서 조건을 실행하면 Python은 또는 다음을 반환합니다.TrueFalse
+
+```python
+a = 200
+b = 33
+
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
+```
+
+## 함수 -> 부울
+Boolean Value를 반환하는 함수를 만들 수 있습니다.
+```python
+def myFunction() :
+  return True
+
+print(myFunction())
+```
+---
+# Python Operators
+
+## 연산자
+Python은 연산자를 다음 그룹으로 나눕니다.
+
+- 산술 연산자
+- 대입 연산자
+- 비교 연산자
+- 논리 연산자
+- ID 연산자
+- 멤버 자격 연산자
+- 비트 연산자
+---
+
+# Python Lists
+```python
+mylist = ["apple", "banana", "cherry"]
+```
+
+## 목록
+```python
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+```
+
+## 목록 길이
+```python
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
+```
+
+## 목록 항목 - 데이터 형식
+```python
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+```
+```python
+list1 = ["abc", 34, True, 40, "male"]
+```
+---
+# Python Tuples
+```python
+mytuple = ("apple", "banana", "cherry")
+```
+
+## 튜플
+
+튜플은 단일 변수에 여러 항목을 저장하는 데 사용됩니다.
+
+Tuple은 컬렉션을 저장하는 데 사용되는 
+Python의 4가지 내장 데이터 유형 중 하나입니다. 
+
+data, 나머지 3개는 List, Set 및 Dictionary이며 모두 품질과 사용법이 다릅니다.
+
+튜플은 순서가 지정되고 변경할 수 없는 컬렉션입니다.
+
+튜플은 둥근 대괄호로 작성됩니다.
+```python
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+```
+---
+# Python Sets
+```python
+myset = {"apple", "banana", "cherry"}
+```
+## 집합
+집합은 단일 변수에 여러 항목을 저장하는 데 사용됩니다.
+
+Set은 컬렉션을 저장하는 데 사용되는 
+Python의 4가지 내장 데이터 유형 중 하나입니다. 
+data, 다른 3개는 List, Tuple 및 Dictionary이며 모두 품질과 사용법이 다릅니다.
+
+집합은 순서가 지정되지 않고, 변경할 수 없으며 인덱싱 되지 않은 컬렉션이다.
+
+집합은 중괄호로 작성됩니다.
+```python
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+```
+---
+# Python Dictionaries
+```python
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+```
+## 사전
+사전은 데이터 값을 키:값 쌍으로 저장하는 데 사용됩니다.
+
+딕셔너리는 순서가 지정되고, 변경 가능하고, 변경되지 않는 컬렉션입니다. 
+중복을 허용합니다.
+
+딕셔너리는 중괄호로 작성되며 키와 값이 있습니다.
+```python
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+```
+---
+# Python If...Else
+
+## 파이썬 조건과 if문
+파이썬은 수학의 일반적인 논리 조건을 지원합니다.
+
+- 같음: a == b
+- 같지 않음: a != b
+- 보다 작음: a < b
+- 작거나 같음: a <= b
+- 보다 큼: a > b
+- 크거나 같음: a >= b
+```python
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a")
+```
+## 엘리프
+```python
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+```
+## 다른
+```python
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+```
+## 약식
+```python
+if a > b: print("a is greater than b")
+```
+## 중첩 if
+```python
+x = 41
+
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
+```
+## pass문
+```python
+a = 33
+b = 200
+
+if b > a:
+  pass
+```
+---
+# Python While Loops
+
+## 파이썬 루프
+파이썬에는 두 가지 기본 루프 명령이 있습니다.
+
+- while 루프
+- for 루프
+
+## While루프
+```python
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+```
+## break문
+```python
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+```
+## continue문
+```
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+```
+---
+# Python For Loops
+
+## 파이썬 For 루프
+for 루프는 시퀀스 (즉, 목록, 튜플, 딕셔너리, 집합 또는 문자열).
+
+이것은 다른 프로그래밍 언어의 for 키워드와 비슷하지 않으며 
+다른 객체 지향 프로그래밍 언어에서 볼 수 있는 
+반복자 메서드와 더 비슷하게 작동합니다.
+
+for 루프를 사용하면 목록, 튜플, 집합 등의 각 항목에 대해 
+한 번씩 일련의 명령문을 실행할 수 있습니다.
+```python
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+```
+---
